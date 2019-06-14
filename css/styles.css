@@ -1,0 +1,67 @@
+nav {
+  background-color: black;
+  font-size: 2em;
+  color:yellow;
+}
+a{
+  color:yellow;
+}
+#title{
+  background-color: yellow;
+  caret-color:black;
+}
+
+button {
+  padding-bottom: 20px;
+  display: inline-grid;
+  margin-bottom: 5%;
+  color:black;
+  padding:2px;
+}
+
+input {
+  margin-bottom: 5%;
+  color:black;
+}
+body {
+  background-image:url(https://images.pexels.com/photos/37524/cube-six-gambling-play-37524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940;)
+  }
+.row{
+  color:yellow;
+}
+#c1{
+color:white;
+}
+
+#c4{
+color:white;
+}
+p{
+  font-family: Mononoki;
+}
+atom-workspace {
+    font-family: Mononoki;
+}
+h2{
+  font-family: luculent;
+}
+#update{
+  color:white;
+}
+.p2Information{
+  background-color:black;
+}
+.p1Information{
+  background-color: black;
+}
+#comment{
+  color:yellow;
+}
+
+}
+@media screen and (max-width:768px) {
+  #title{
+  width:100%;
+  background-color: white;
+  }
+}

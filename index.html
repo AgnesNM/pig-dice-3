@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Pig-Dice</a>
+      <a href="#">Contacts</a>
+    </nav>
+    <h1 id="title" >Pig Dice</h1>
+      <div class="container-fluid">
+          <div class="row">
+            <div id="c1" class="col-md-3">
+              <h1>The Rules of the Game</h1>
+                <p>Each player will see the score for each of their dice roll. </p>
+                <p>Each player will also be able to see their cumulative score for each round. </p>
+                <p>A player can choose the accumulated score during a round of playing. The held score can then be added to the current cumulative score. </p>
+                <p>Each player will be notified when their dice rolls to number 1, where the affected player will forgo their chance to roll the dice for one round and the other player will roll theirs till the round is complete. </p>
+                <p>The winner of the game will be the one who accumulates 100 points first, and the program will notify them.</p>
+            </div>
+            <div id="c2"class="col-md-3">
+              <h2>Player1,ready?Get started!</h2>
+                  <button id="p1roll" type="" value="Submit">Roll Dice</button><br>
+                  <button id="p1hold" type="" value="Submit">Hold</button><br>
+                  <div class="p1Information">
+                    <h1 id="player1"></h1>
+                      <p>Score:<span id="p1RollScore"></span></p>
+                      <p>Score:<span id="p1TotalScore"></span></p>
+                  </div>
+            </div>
+            <div id="c3"class="col-md-3">
+              <h2>Player2,ready?Get started!</h2>
+                  <button id="p2roll" type="" value="Submit">Roll Dice</button><br>
+                  <button id="p2hold" type="" value="Submit">Hold</button><br>
+                  <div class="p2Information">
+                    <h2 id="player2"></h2>
+                      <p>Score:<span id="p2RollScore"></span></p>
+                      <p>Score:<span id="p2TotalScore"></span></p>
+                  </div>
+            </div>
+            <div id="c4"class="col-md-3">
+                <h2 id="update">Updates!</h2>
+                <p>None for now, stay posted!</p>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="col-md-3">
+              <h1 id="comment">Player Comments</h1>
+              <div class="card">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>This game is so cool!</p>
+                    <footer class="blockquote-footer">Mutua</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Pig-Dice</a>
+      <a href="#">Contacts</a>
+    </nav>
+  </body>
+</html>
